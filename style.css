@@ -55,16 +55,6 @@ a:hover{
 .page-section{
   padding-top: 100px;
 }
-@media(min-width:1400px){
-  .bigScreenPadding{
-    padding-left:calc(57vw - 700px)!important;
-    padding-right:calc(57vw - 700px)!important;
-}
-  .xbigScreenPadding{
-    padding-right: calc(57vw - 715px)!important;
-    padding-left: calc(57vw - 715px)!important;
-  }
-}
 .navbar-collapse{
   flex-wrap: wrap;
 }
@@ -397,6 +387,9 @@ a:hover{
 }
 .footer ul li a{
   text-transform: none;
+}
+.js-best, .js-new{
+  transition: all 0.66s ease;
 }
 .js-best:hover, .js-new:hover{
   cursor: pointer;
