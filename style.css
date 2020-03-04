@@ -159,10 +159,12 @@ a:hover{
 .products-switcher{
   display: flex;
   justify-content: space-between;
+  height: 8rem;
 }
 .product-switch{
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 .product-switch:nth-child(4){
   justify-content: flex-start;
